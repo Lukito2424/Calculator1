@@ -52,7 +52,7 @@
                 android:background="@drawable/layout_function"
                 android:gravity="center"
                 android:onClick="operationClick"
-                android:text="√"
+                android:text="%"
                 android:textColor="@color/white"
                 android:textSize="30sp" />
 
