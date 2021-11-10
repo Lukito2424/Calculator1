@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
             "-" -> resultTextView.text = (operand - secOperand).toString()
             "×" -> resultTextView.text = (operand * secOperand).toString()
             "÷" -> resultTextView.text = (operand / secOperand).toString()
-            "√" -> resultTextView.text = (kotlin.math.sqrt(operand)).toString()
+            "%" -> resultTextView.text = (operand % secOperand).toString()
             "^" -> resultTextView.text = (operand.pow(secOperand)).toString()
             "C" -> resultTextView.text = ""
 
